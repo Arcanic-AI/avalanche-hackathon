@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  avax_hackathon_fe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3025:3000" 
