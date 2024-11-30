@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  hackathon_api:
+    build:
+      context: .
+      dockerfile: dockerfile
+    deploy:
+      resources:
+        limits:
+          memory: 512M 
+          cpus: "0.5"    
+    image: hackathon_api
+    container_name: hackathon_api
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "8181:8181"
