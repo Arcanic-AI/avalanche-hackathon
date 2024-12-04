@@ -4,6 +4,7 @@
 
 ## How It Works
 The following video demonstrates how this tool works
+
 [![Demo Crypto Insight](https://img.youtube.com/vi/w6JW9oZ46Jg/0.jpg)](https://youtu.be/w6JW9oZ46Jg "Demo Crypto Insight")
 
 ## Features
