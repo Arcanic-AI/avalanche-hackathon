@@ -13,8 +13,9 @@
   - [BeInCrypto](https://beincrypto.com/)  
   - [U.Today](https://u.today/)  
   - [New Potato Tech](https://www.newpotatotech.com/)  
-  - Newbit  
-  These articles are stored in a centralized database for further processing.
+  - [Bitcoin.com News](https://news.bitcoin.com/)
+
+   These articles are stored in a centralized database for further processing.
 
 - **Sentiment Analysis**:  
   Using **Cono AI** from Arcanic AI, the platform performs sentiment analysis on the collected articles every 30 minutes:  
