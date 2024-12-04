@@ -3,6 +3,12 @@
 **Crypto Insight** is a comprehensive web application designed to streamline crypto news aggregation, sentiment analysis, and automated trading. Built with cutting-edge AI and blockchain technologies, it provides users with actionable insights and tools for informed crypto trading decisions.
 
 **Project URL:** https://github.com/Arcanic-AI/avalanche-hackathon
+## Features
+
+- **News Crawling**: Automatically fetch crypto-related articles from multiple trusted sources every 30 minutes.
+- **AI Sentiment Analysis**: Leverage Cono AI from Arcanic AI to identify mentioned cryptocurrencies and assign a sentiment score (1-100) for each article.
+- **Crypto Wallet Integration**: Allow users to log in with their crypto wallets and manage their trading history securely.
+- **Automated Trading**: Execute buy/sell decisions on the blockchain based on AI recommendations.
 
 ## How It Works
 - **News Aggregation**:  
@@ -13,8 +19,9 @@
   - [BeInCrypto](https://beincrypto.com/)  
   - [U.Today](https://u.today/)  
   - [New Potato Tech](https://www.newpotatotech.com/)  
-  - Newbit  
-  These articles are stored in a centralized database for further processing.
+  - [Bitcoin.com News](https://news.bitcoin.com/)
+
+   These articles are stored in a centralized database for further processing.
 
 - **Sentiment Analysis**:  
   Using **Cono AI** from Arcanic AI, the platform performs sentiment analysis on the collected articles every 30 minutes:  
@@ -31,13 +38,6 @@
 The following video demonstrates how this tool works
 
 [![Demo Crypto Insight](https://img.youtube.com/vi/00ECPl8Jz84/0.jpg)](https://youtu.be/00ECPl8Jz84 "Demo Crypto Insight")
-
-## Features
-
-- **News Crawling**: Automatically fetch crypto-related articles from multiple trusted sources every 30 minutes.
-- **AI Sentiment Analysis**: Leverage Cono AI from Arcanic AI to identify mentioned cryptocurrencies and assign a sentiment score (1-100) for each article.
-- **Crypto Wallet Integration**: Allow users to log in with their crypto wallets and manage their trading history securely.
-- **Automated Trading**: Execute buy/sell decisions on the blockchain based on AI recommendations.
 
 ## Tech Stack Overview
 
