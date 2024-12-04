@@ -5,6 +5,29 @@
 **Project URL:** https://github.com/Arcanic-AI/avalanche-hackathon
 
 ## How It Works
+- **News Aggregation**:  
+  Every 30 minutes, the **News Crawling Service** fetches the latest crypto-related articles from trusted sources, including:  
+  - [CoinDesk](https://www.coindesk.com/)  
+  - [Blockworks](https://blockworks.co/)  
+  - [The Crypto Basic](https://thecryptobasic.com/)  
+  - [BeInCrypto](https://beincrypto.com/)  
+  - [U.Today](https://u.today/)  
+  - [New Potato Tech](https://www.newpotatotech.com/)  
+  - Newbit  
+  These articles are stored in a centralized database for further processing.
+
+- **Sentiment Analysis**:  
+  Using **Cono AI** from Arcanic AI, the platform performs sentiment analysis on the collected articles every 30 minutes:  
+  - **Identify Cryptocurrencies**: Detects any mentioned cryptocurrencies in the text.  
+  - **Evaluate Sentiment**: Assigns a **sentiment score** (positive, negative, or neutral) and generates a **confidence level** (percentage indicating the reliability of the sentiment).  
+  - **Prepare Signals**: Based on the analysis, the system generates trading signals for the next step.
+
+- **Automated Trading**:  
+  The **Trading Service** processes signals and executes trades on the blockchain based on the following rules:  
+  - If the sentiment is **positive** and the confidence level is **above 70%**, the system triggers a **buy** action.  
+  - If the sentiment is **negative** and the confidence level is **above 70%**, the system triggers a **sell** action.  
+  - If the sentiment is **neutral**, no action is taken.  
+
 The following video demonstrates how this tool works
 
 [![Demo Crypto Insight](https://img.youtube.com/vi/00ECPl8Jz84/0.jpg)](https://youtu.be/00ECPl8Jz84 "Demo Crypto Insight")
