@@ -2,6 +2,8 @@
 
 **Crypto Insight** is a comprehensive web application designed to streamline crypto news aggregation, sentiment analysis, and automated trading. Built with cutting-edge AI and blockchain technologies, it provides users with actionable insights and tools for informed crypto trading decisions.
 
+[![Demo Crypto Insight](https://img.youtube.com/vi/w6JW9oZ46Jg/0.jpg)](https://youtu.be/w6JW9oZ46Jg "Demo Crypto Insight")
+
 ## Features
 
 - **News Crawling**: Automatically fetch crypto-related articles from multiple trusted sources every 30 minutes.
